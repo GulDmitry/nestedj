@@ -26,8 +26,8 @@ import pl.exsio.nestedj.ex.InvalidNodeException;
 import pl.exsio.nestedj.model.NestedNode;
 import pl.exsio.nestedj.model.NestedNodeInfo;
 
-import javax.persistence.NoResultException;
-import javax.persistence.criteria.*;
+import jakarta.persistence.NoResultException;
+import jakarta.persistence.criteria.*;
 import java.io.Serializable;
 import java.util.Optional;
 

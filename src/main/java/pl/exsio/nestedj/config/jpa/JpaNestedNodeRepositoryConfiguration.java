@@ -24,7 +24,7 @@ import pl.exsio.nestedj.config.jpa.discriminator.JpaTreeDiscriminator;
 import pl.exsio.nestedj.config.jpa.discriminator.MapJpaTreeDiscriminator;
 import pl.exsio.nestedj.model.NestedNode;
 
-import javax.persistence.EntityManager;
+import jakarta.persistence.EntityManager;
 import java.io.Serializable;
 
 /**

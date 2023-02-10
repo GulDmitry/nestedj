@@ -31,8 +31,8 @@ import pl.exsio.nestedj.base.NestedNodeRepositoryRebuildingTest;
 import pl.exsio.nestedj.model.TestNode;
 import pl.exsio.nestedj.qualifier.Jpa;
 
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
 
 @Transactional
 public class JpaNestedNodeRepositoryRebuildingTest extends NestedNodeRepositoryRebuildingTest {
